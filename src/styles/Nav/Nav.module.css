@@ -94,24 +94,24 @@ padding: .8em;
         flex-direction: column;
         align-items: center;
         background-color: rgb(3, 3, 187);
-        border-bottom-right-radius: 5em;
+        border-bottom-right-radius: 8em;
      
     }
 
     .firstDiv768 a{
         color: white;
         padding: 3.2em;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-decoration: none;
     }
 
 
         .firstDiv768 a:nth-child(5) {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
     
         .firstDiv768 a:nth-child(6) {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
 
 .firstDiv768 a:hover {
@@ -155,14 +155,14 @@ padding: .8em;
             flex-direction: column;
             align-items: center;
             background-color: rgb(3, 3, 187);
-            border-bottom-right-radius: 5em;
+            border-bottom-right-radius: 8em;
     
         }
     
         .firstDiv768 a {
             color: white;
-            padding: 2.85em;
-            font-size: 1rem;
+            padding: 3em;
+            font-size: .9rem;
             text-decoration: none;
         }
     
