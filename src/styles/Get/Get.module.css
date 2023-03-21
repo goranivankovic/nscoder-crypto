@@ -1,0 +1,655 @@
+.container{
+
+    width: 100%;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  white;
+
+  }
+
+
+
+
+  .fristDiv{
+      padding: 0.5em;
+      width: 100%;
+      align-self: flex-start;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.1rem;
+      color: darkblue;
+      /* border: 1px solid red; */
+
+
+
+  }
+
+
+  .secondDiv{
+  
+    min-width: 80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    padding: 1em;
+   font-size: 1.5rem;
+   text-align: center;
+   color: black;
+   /* border: 1px solid red; */
+
+ 
+
+
+  }
+
+  .empdtyDiv{
+    width: 90%;
+    padding: 4em;
+    /* border: 1px solid red; */
+
+  }
+
+
+  .treedDiv{
+    width: 65%;
+
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid red; */
+
+  }
+
+.treedDiv img{
+    width: 100%;
+   
+  
+  }
+
+
+
+
+ 
+
+ 
+.button {
+
+  padding: 0.7em;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .7em;
+  border: .2em solid #300885;
+  background-color: white;
+  color: #300885;
+  font-weight: bold;
+  font-size: 1rem;
+
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+
+}
+
+.button:hover {
+  transition: 600ms;
+  transform: scale(1.03);
+  background-color: #300885;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+  
+
+
+
+
+
+
+  .fourDiv{
+      
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+         background-color: darkblue;
+   
+  }
+
+
+        .threeDivs {
+          width: 30%;
+          padding: 1.4em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          color: white;
+          font-size: 1.3em;
+          text-align: center;
+          /* border: 1px solid red; */
+
+        }
+
+
+
+@media (max-width: 992px) {
+
+.fristDiv {
+    padding: 0.5em;
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.85rem;
+    color: darkblue;
+    /* border: 1px solid red; */
+
+
+
+  }
+
+
+  .secondDiv {
+
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.3rem;
+    text-align: center;
+    color: black;
+    /* border: 1px solid red; */
+
+
+
+
+  }
+
+  .empdtyDiv {
+    width: 90%;
+    padding: 4em;
+    /* border: 1px solid red; */
+
+  }
+
+
+  .treedDiv {
+    width: 65%;
+
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid red; */
+
+  }
+
+  .treedDiv img {
+    width: 100%;
+
+
+  }
+
+
+
+
+
+
+
+  .button {
+
+    padding: 0.7em;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .7em;
+    border: .2em solid #300885;
+    background-color: white;
+    color: #300885;
+    font-weight: bold;
+    font-size: 1rem;
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+
+  }
+
+  .button:hover {
+    transition: 600ms;
+    transform: scale(1.03);
+    background-color: #300885;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+  .fourDiv {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkblue;
+
+  }
+
+
+  .threeDivs {
+    width: 30%;
+    padding: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3rem;
+    /* border: 1px solid red; */
+
+  }
+
+
+
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+             @media (max-width: 768px) {
+      
+               .fristDiv {
+                 padding: 1em;
+                 width: 100%;
+                 align-self: flex-start;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 font-size: 1.65rem;
+                 color: darkblue;
+                 /* border: 1px solid red; */
+      
+      
+      
+               }
+      
+      
+               .secondDiv {
+      
+                 min-width: 90%;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 padding: 1em;
+                 text-align: center;
+                 font-size: 1.2rem;
+                 text-align: center;
+                 color: black;
+                 /* border: 1px solid red; */
+      
+      
+      
+      
+               }
+      
+               .empdtyDiv {
+                 width: 90%;
+                 padding: 4em;
+                 /* border: 1px solid red; */
+      
+               }
+      
+      
+               .treedDiv {
+                 width: 90%;
+      
+                 padding: 1em;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+      
+                 /* border: 2px solid red; */
+      
+               }
+      
+               .treedDiv img {
+                 width: 100%;
+      
+      
+               }
+
+                  
+      
+            .button {
+      
+              padding: 0.7em;
+              width: 250px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: .7em;
+              border: .2em solid #300885;
+              background-color: white;
+              color: #300885;
+              font-weight: bold;
+              font-size: 1rem;
+              margin-bottom: 1em;
+              margin-top: 1em;
+      
+      
+      
+            }
+      
+      
+      
+      
+      
+      
+      
+               .fourDiv {
+      
+                 width: 100%;
+                 display: flex;
+                flex-direction: column;
+                 align-items: center;
+                 justify-content: space-around;
+                 background-color: darkblue;
+      
+               }
+      
+      
+               .threeDivs {
+                 width: 85%;
+                 padding: 1.2em;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 flex-direction: column;
+                 color: white;
+                 font-size: 1.1rem;
+                 /* border: 1px solid red; */
+      
+               }
+      
+      
+      
+      
+             }
+
+
+             
+
+
+
+             
+
+
+
+@media (max-width: 600px) {
+
+              .fristDiv {
+                  padding: 1em;
+                  width: 100%;
+                  align-self: flex-start;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 1.65rem;
+                  color: darkblue;
+                  /* border: 1px solid red; */
+              
+              
+              
+                }
+              
+              
+                .secondDiv {
+              
+                  min-width: 90%;
+                  display: flex;
+                  flex-direction: column;
+                  text-align: center;
+                  align-items: center;
+                  padding: 1em;
+                  font-size: 1.1rem;
+                  text-align: center;
+                  color: black;
+                  /* border: 1px solid red; */
+              
+              
+              
+              
+                }
+              
+                .empdtyDiv {
+                  width: 90%;
+                  padding: 3em;
+                  /* border: 1px solid red; */
+              
+                }
+              
+              
+                .treedDiv {
+                  width: 100%;
+              
+                 
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+              
+                  /* border: 2px solid red; */
+              
+                }
+              
+                .treedDiv img {
+                  width: 100%;
+                  height: 100%;
+              
+              
+                }
+              
+              
+              
+                .button {
+              
+                padding: 0.8em;
+                  width: 220px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: .7em;
+                  border: .2em solid #300885;
+                  background-color: white;
+                  color: #300885;
+                  font-weight: bold;
+                  font-size: .8rem;
+                  margin-bottom: 1em;
+                  margin-top: 1em;
+              
+              
+              
+                }
+              
+              
+              
+              
+              
+              
+              
+                .fourDiv {
+              
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: space-around;
+                  background-color: darkblue;
+              
+                }
+              
+              
+                .threeDivs {
+                  width: 85%;
+                  padding: 1.2em;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+                  color: #ffffff;
+                  font-size: 1.1rem;
+                  /* border: 1px solid red; */
+              
+                }
+
+}
+
+
+
+
+
+@media (max-width: 450px) {
+            .fristDiv {
+                padding: 1em;
+                width: 100%;
+                align-self: flex-start;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.45rem;
+                color: darkblue;
+                /* border: 1px solid red; */
+            
+            
+            
+              }
+            
+            
+              .secondDiv {
+            
+                min-width: 90%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                padding: 1em;
+                font-size: 1rem;
+                text-align: center;
+                color: black;
+                /* border: 1px solid red; */
+            
+            
+            
+            
+              }
+            
+              .empdtyDiv {
+                width: 90%;
+                padding: 2em;
+                /* border: 1px solid red; */
+            
+              }
+            
+            
+              .treedDiv {
+                width: 100%;
+            
+            
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            
+                /* border: 2px solid red; */
+            
+              }
+            
+              .treedDiv img {
+                width: 100%;
+                height: 100%;
+            
+            
+              }
+            
+            
+            
+              .button {
+            padding: 0.8em;
+              width: 160px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: .7em;
+              border: .2em solid #300885;
+              background-color: white;
+              color: #300885;
+              font-weight: bold;
+              font-size: .8rem;
+              margin-bottom: .8em;
+              margin-top: 1em;
+            
+            
+            
+              }
+            
+            
+            
+            
+            
+            
+            
+              .fourDiv {
+            
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                background-color: darkblue;
+            
+              }
+            
+            
+              .threeDivs {
+                width: 85%;
+                padding: 1.2em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: white;
+                font-size: 1rem;
+                /* border: 1px solid red; */
+            
+              }
+}

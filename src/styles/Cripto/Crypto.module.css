@@ -1,0 +1,875 @@
+.container{
+
+    width: 100%;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+
+  .firstDiv{
+   
+    width: 100%;
+
+   display: flex;
+   text-align: center;
+align-items: center;
+  justify-content: center;
+  font-size: 2.1rem;
+  color: darkblue;
+  padding: 1em;
+
+   /* border: 1px solid red; */
+    
+
+  }
+
+  .secondDiv{
+    
+    width: 85%;
+   display: flex;
+    text-align: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.2rem;
+   /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv div{
+    padding: 1em;
+  }
+
+
+
+  .emptyDiv{
+ 
+    width: 90%;
+    padding: 1em;
+  }
+   
+
+
+
+  .threedDiv{
+ 
+    max-width:60%;
+   
+    display: flex;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+
+
+  }
+
+  .threedDivitems{
+    
+ 
+     width: 50%;
+      display: flex;
+   
+      flex-direction: column;
+      justify-content: space-between;
+
+
+   /* border: 1px solid red; */
+
+  } 
+
+  .threedDivitems div{
+    padding:2em;
+      
+  }
+
+  .threedDivitemsHeadline{
+    padding: 1rem;
+      /* border: 1px solid red; */
+      font-size: 1.6rem;
+
+
+  }
+
+  .threedDivitemsText{
+    padding: 1em;
+    font-size: 1.15rem;
+  }
+ 
+
+  .imageDiv{
+    width:50%;
+
+
+  
+    /* border: 1px solid blue; */
+
+  }
+
+  .imageDiv img{
+    width: 100%;
+  }
+
+
+.button {
+  margin-left: 30px;
+  padding: 0.4em;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .6em;
+
+  border: .2em solid #300885;
+  background-color: white;
+  color: #300885;
+  font-weight: bold;
+  font-size: 1rem;
+
+
+}
+
+.button:hover {
+  transition: 600ms;
+  transform: scale(1.03);
+  background-color: #300885;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.fourDiv{
+
+    width: 100%;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      color: black;
+      padding: .8em;
+    
+      /* border: 1px solid red; */
+
+}
+
+
+.fiveDiv{
+
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        
+
+}
+
+.fiveDiv div{
+  padding: .7em;
+  text-align: center;
+}
+
+
+@media (max-width:1200px) {
+  .threedDiv {
+
+    max-width: 65%;
+
+    display: flex;
+    align-items: center;
+
+    /* border: 1px solid red; */
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+.firstDiv {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: darkblue;
+    padding: 1em;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv {
+
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv div {
+    padding: 1em;
+  }
+
+
+
+  .emptyDiv {
+
+    width: 90%;
+    padding: 1em;
+  }
+
+
+
+
+  .threedDiv {
+
+    max-width: 70%;
+
+    display: flex;
+    align-items: center;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .threedDivitems {
+
+
+    width: 50%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    /* border: 1px solid red; */
+
+  }
+
+  .threedDivitems div {
+    padding: 1.8em;
+
+  }
+
+  .threedDivitemsHeadline {
+    padding: 1rem;
+    /* border: 1px solid red; */
+    font-size: 1.4rem;
+
+
+  }
+
+  .threedDivitemsText {
+    padding: 1em;
+    font-size: 1rem;
+  }
+
+
+  .imageDiv {
+    width: 50%;
+
+
+
+    /* border: 1px solid blue; */
+
+  }
+
+  .imageDiv img {
+    width: 100%;
+  }
+
+
+  .button {
+    margin-left: 30px;
+    padding: 0.4em;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6em;
+
+    border: .2em solid #300885;
+    background-color: white;
+    color: #300885;
+    font-weight: bold;
+    font-size: .9rem;
+
+
+  }
+
+
+
+  .fourDiv {
+
+    width: 100%;
+ 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: black;
+    padding: .8em;
+
+    /* border: 1px solid red; */
+
+  }
+
+
+  .fiveDiv {
+
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+
+  }
+
+  .fiveDiv div {
+    padding: .6em;
+      text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+  .firstDiv {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.85rem;
+    color: darkblue;
+    padding: 1em;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv {
+
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv div {
+    padding: .65em;
+  }
+
+
+
+  .emptyDiv {
+
+    width: 90%;
+    padding: 1em;
+  }
+
+
+
+
+  .threedDiv {
+
+    max-width: 80%;
+
+    display: flex;
+    align-items: center;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .threedDivitems {
+
+
+    width: 50%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    /* border: 1px solid red; */
+
+  }
+
+  .threedDivitems div {
+    padding: 1.5em;
+
+  }
+
+  .threedDivitemsHeadline {
+    padding: 1rem;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+
+
+  }
+
+  .threedDivitemsText {
+    padding: 1em;
+    font-size: 1rem;
+  }
+
+
+  .imageDiv {
+    width: 50%;
+
+
+
+    /* border: 1px solid blue; */
+
+  }
+
+  .imageDiv img {
+    width: 100%;
+  }
+
+
+  .button {
+    margin-left: 30px;
+    padding: 0.4em;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6em;
+
+    border: .2em solid #300885;
+    background-color: white;
+    color: #300885;
+    font-weight: bold;
+    font-size: .9rem;
+
+
+  }
+
+
+
+  .fourDiv {
+
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: black;
+    padding: .8em;
+
+    /* border: 1px solid red; */
+
+  }
+
+
+  .fiveDiv {
+
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+
+  }
+
+  .fiveDiv div {
+    padding: .5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+  .firstDiv {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.65rem;
+    color: darkblue;
+    padding: 1em;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv {
+
+    width: 85%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv div {
+    padding: .65em;
+  }
+
+
+
+  .emptyDiv {
+
+    width: 90%;
+    padding: 1em;
+  }
+
+
+
+
+  .threedDiv {
+
+    max-width: 80%;
+
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .threedDivitems {
+
+
+    width: 90%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    /* border: 1px solid red; */
+
+  }
+
+  .threedDivitems div {
+    padding: 1.8em;
+
+  }
+
+  .threedDivitemsHeadline {
+    padding: 1em;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+
+
+  }
+
+  .threedDivitemsText {
+    padding: 1em;
+    font-size: 1rem;
+  }
+
+
+  .imageDiv {
+    width: 90%;
+
+
+
+    /* border: 1px solid blue; */
+
+  }
+
+  .imageDiv img {
+    width: 100%;
+  }
+
+
+  .button {
+    margin-left: 30px;
+    padding: 0.5em;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6em;
+
+    border: .2em solid #300885;
+    background-color: white;
+    color: #300885;
+    font-weight: bold;
+    font-size: .9rem;
+
+
+  }
+
+
+
+  .fourDiv {
+
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: black;
+    padding: .8em;
+
+    /* border: 1px solid red; */
+
+  }
+
+
+  .fiveDiv {
+
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+
+  }
+
+  .fiveDiv div {
+    padding: .5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+  .firstDiv {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.45rem;
+    color: darkblue;
+    padding: 1em;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv {
+
+    width: 85%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+    /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv div {
+    padding: .65em;
+  }
+
+
+
+  .emptyDiv {
+
+    width: 90%;
+    padding: 1em;
+  }
+
+
+
+
+  .threedDiv {
+
+    max-width: 80%;
+
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+  .threedDivitems {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    /* border: 1px solid red; */
+
+  }
+
+  .threedDivitems div {
+    padding: 1.3em;
+    
+
+  }
+
+  .threedDivitemsHeadline {
+    padding: 1.3em;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+
+
+  }
+
+  .threedDivitemsText {
+    padding: 1em;
+    font-size:.9rem;
+
+    /* border: 2px solid red; */
+
+  }
+
+
+  .imageDiv {
+    width: 90%;
+
+
+
+    /* border: 1px solid blue; */
+
+  }
+
+  .imageDiv img {
+    width: 100%;
+  }
+
+
+  .button {
+    margin-left: 10px;
+    padding: 0.5em;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6em;
+
+    border: .2em solid #300885;
+    background-color: white;
+    color: #300885;
+    font-weight: bold;
+    font-size: .9rem;
+
+
+  }
+
+
+
+  .fourDiv {
+
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: black;
+    padding: .8em;
+
+    /* border: 1px solid red; */
+
+  }
+
+
+  .fiveDiv {
+
+    width: 95%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+
+  }
+
+  .fiveDiv div {
+    padding: .5em;
+  }
+}

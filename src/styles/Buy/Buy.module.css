@@ -1,0 +1,659 @@
+.container{
+
+    width: 100%;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkblue;
+    color: white;
+
+  }
+
+
+
+
+  .firstDiv{
+  
+    width: 100%;
+   align-self: flex-start;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2.1rem;
+   padding: 1em;
+   color: white;
+   /* border: 1px solid red;  border: 1px solid red; */
+
+
+  }
+
+
+  .secondDiv{
+    width: 75%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 1.5rem;
+   color: white;
+
+   /* border-bottom: 1px solid red; */
+
+
+  }
+
+  .secondDiv div{
+    padding: .65em;
+  }
+
+
+
+  .emptyDiv{
+    max-width: 90%;
+    padding: 4em;
+  }
+
+
+
+
+
+
+  .threedDiv{
+    width: 67%;
+    font-size: 1.1rem;
+
+  }
+
+   .threedDivItems{
+    width: 100%;
+    border-bottom: .2em solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 1.15rem;
+
+  }
+
+
+  .threedDivItems div{
+    width: 20%;
+
+  }
+
+     .threedDivItems button:hover{
+      transition: 600ms;
+      transform: scale(.98);
+      background-color: firebrick;
+      color: white;
+      cursor: pointer;
+     }
+
+
+
+
+
+
+
+  .threedDivItems  button{
+    padding: .60em; 
+    width: 130px;
+    background-color: white;
+    border-radius: .3em;
+    font-size: 1rem;
+    border: none;
+  }
+
+
+
+
+
+
+
+
+.button {
+
+  margin-top:3em;
+  margin-bottom: 1em;
+
+  padding: 0.7em;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .7em;
+
+  border: .2em solid #300885;
+  background-color: white;
+  color: #300885;
+  font-weight: bold;
+  font-size: 1rem;
+
+
+}
+
+.button:hover {
+  transition: 600ms;
+  transform: scale(1.03);
+  background-color: firebrick;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ @media (max-width:1200px) {
+    .threedDiv {
+        width: 77%;
+        font-size: 1.1rem;
+    
+      }
+ }
+
+ @media (max-width: 992px) {
+
+  .firstDiv {
+  
+      width: 100%;
+      align-self: flex-start;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      padding: 1em;
+      color: white;
+      /* border: 1px solid red;  border: 1px solid red; */
+  
+  
+    }
+  
+  
+    .secondDiv {
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 1.3rem;
+      color: white;
+  
+      /* border-bottom: 1px solid red; */
+  
+  
+    }
+  
+    .secondDiv div {
+      padding: .65em;
+    }
+  
+  
+  
+    .emptyDiv {
+      max-width: 90%;
+      padding: 3em;
+    }
+  
+  
+  
+  
+  
+  
+    .threedDiv {
+      width: 90%;
+      font-size: 1rem;
+  
+    }
+  
+    .threedDivItems {
+      width: 100%;
+      border-bottom: .2em solid white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.1em;
+      font-size: 1rem;
+  
+    }
+  
+  
+    .threedDivItems div {
+      width: 20%;
+  
+    }
+
+        .threedDivItems img{
+          height: 1.1rem;
+        }
+  
+    .threedDivItems button:hover {
+      transition: 600ms;
+      transform: scale(.98);
+      background-color: firebrick;
+      color: white;
+      cursor: pointer;
+    }
+  
+  
+  
+  
+  
+  
+  
+    .threedDivItems button {
+      padding: .75em;
+      width: 130px;
+      background-color: white;
+      border-radius: .3em;
+      font-size: .8rem;
+      border: none;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+    .button {
+  
+      margin-top: 3em;
+      margin-bottom: 1em;
+  
+      padding: 0.7em;
+      width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: .7em;
+  
+      border: .2em solid #300885;
+      background-color: white;
+      color: #300885;
+      font-weight: bold;
+      font-size: 1rem;
+  
+  
+    }
+  
+}
+
+
+
+
+
+    @media (max-width: 768px) {
+
+
+      .firstDiv {
+      
+          width: 100%;
+          align-self: flex-start;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.85rem;
+          padding: 1em;
+          color: white;
+          /* border: 1px solid red;  border: 1px solid red; */
+      
+      
+        }
+      
+      
+        .secondDiv {
+          width: 95%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 1.2rem;
+          color: white;
+      
+          /* border-bottom: 1px solid red; */
+      
+      
+        }
+      
+        .secondDiv div {
+          padding: .65em;
+        }
+      
+      
+      
+        .emptyDiv {
+          max-width: 90%;
+          padding: 2em;
+        }
+      
+      
+      
+      
+      
+      
+        .threedDiv {
+          width: 95%;
+      
+      
+        }
+      
+        .threedDivItems {
+          width: 100%;
+          border-bottom: .2em solid white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1em;
+          font-size: .8rem;
+      
+        }
+      
+      
+        .threedDivItems div {
+          width: 20%;
+      
+        }
+      
+        .threedDivItems img {
+          height: 1.1rem;
+        }
+      
+    
+      
+      
+        .threedDivItems button {
+          padding: .65em;
+          width: 100px;
+          background-color: white;
+          border-radius: .3em;
+          font-size: .8rem;
+          border: none;
+        }
+      
+      
+      
+      
+      
+      
+      
+            .button {
+      
+              padding: 0.7em;
+              width: 250px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: .7em;
+              border: .2em solid #300885;
+              background-color: white;
+              color: #300885;
+              font-weight: bold;
+              font-size: 1rem;
+              margin-bottom: 1em;
+              margin-top: 1em;
+      
+      
+      
+            }
+
+    }
+
+
+
+
+
+@media (max-width: 600px) {
+
+
+  .firstDiv {
+
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.65rem;
+    padding: 1em;
+    color: white;
+    /* border: 1px solid red;  border: 1px solid red; */
+
+
+  }
+
+
+  .secondDiv {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    color: white;
+
+    /* border-bottom: 1px solid red; */
+
+
+  }
+
+  .secondDiv div {
+    padding: .65em;
+  }
+
+
+
+  .emptyDiv {
+    max-width: 90%;
+    padding: 2em;
+  }
+
+
+
+
+
+
+  .threedDiv {
+    width: 95%;
+
+
+  }
+
+  .threedDivItems {
+    width: 100%;
+    border-bottom: .2em solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: .8rem;
+
+  }
+
+
+  .threedDivItems div {
+    width: 25%;
+
+  }
+
+     
+
+  .threedDivItems div:nth-child(4){
+    display: none;
+  }
+
+  .threedDivItems img {
+    height: 1rem;
+  }
+
+
+
+
+  .threedDivItems button {
+    padding: .65em;
+    width: 100px;
+    background-color: white;
+    border-radius: .3em;
+    font-size: .8rem;
+    border: none;
+  }
+
+
+
+
+
+
+
+        .button {
+    
+          padding: 0.8em;
+          width: 220px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: .7em;
+          border: .2em solid #300885;
+          background-color: white;
+          color: #300885;
+          font-weight: bold;
+          font-size: .8rem;
+          margin-bottom: 1em;
+          margin-top: 1em;
+    
+    
+    
+        }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+  .firstDiv {
+
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.45rem;
+    padding: 1em;
+    color: white;
+    /* border: 1px solid red;  border: 1px solid red; */
+
+
+  }
+
+
+  .secondDiv {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .9rem;
+    color: white;
+
+    /* border-bottom: 1px solid red; */
+
+
+  }
+
+  .secondDiv div {
+    padding: .65em;
+  }
+
+
+
+  .emptyDiv {
+    max-width: 90%;
+    padding: 2em;
+  }
+
+
+
+
+
+
+  .threedDiv {
+    width: 95%;
+
+
+  }
+
+  .threedDivItems {
+    width: 100%;
+    border-bottom: .2em solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: .8rem;
+
+  }
+
+
+  .threedDivItems div {
+    width: 33%;
+
+  }
+
+    .threedDivItems div:nth-child(3) {
+      display: none;
+    }
+
+  .threedDivItems div:nth-child(4) {
+    display: none;
+  }
+
+  .threedDivItems img {
+    height: 1rem;
+  }
+
+
+
+
+  .threedDivItems button {
+    padding: .55em;
+    width: 90px;
+    background-color: white;
+    border-radius: .3em;
+    font-size: .8rem;
+    border: none;
+  }
+
+
+
+
+
+
+
+  .button {
+
+    padding: 0.8em;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .7em;
+    border: .2em solid #300885;
+    background-color: white;
+    color: #300885;
+    font-weight: bold;
+    font-size: .8rem;
+    margin-bottom: .8em;
+    margin-top: 1em;
+
+
+
+  }
+
+}
