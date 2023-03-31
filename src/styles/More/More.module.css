@@ -101,7 +101,6 @@ background-color: var(--black);
   }
 
 
-
   .threedDiv{
     max-width: 100%;
     display: flex;
@@ -144,6 +143,8 @@ background-color: var(--black);
       border: none;
       cursor: pointer;
   }
+
+
 
 
 

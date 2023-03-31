@@ -12,6 +12,8 @@ import slika from '../../images/home.png'
 
 
 
+
+
 function More() {
   return (
     <div>
@@ -27,11 +29,6 @@ function More() {
 
 
              <div className={moreStyle.emptyDiv}></div>
-
-
-
-        
-
 
 
 
@@ -88,8 +85,18 @@ function More() {
 
 
            <div className={moreStyle.emptyDiv}>
+          
 
-           </div>
+           </div> 
+
+
+                    
+
+             
+         
+                
+
+           
 
 
 
@@ -101,7 +108,7 @@ function More() {
 
 
 
-
+              
    
         
 
