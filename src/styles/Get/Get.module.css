@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color:  white;
+    background-color:  var(--black);
 
   }
 
@@ -14,14 +14,14 @@
 
 
   .fristDiv{
-      padding: 0.5em;
+      padding-top:2em;
       width: 100%;
       align-self: flex-start;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 2.1rem;
-      color: darkblue;
+      color: var(--blue);
       /* border: 1px solid red; */
 
 
@@ -38,7 +38,7 @@
     padding: 1em;
    font-size: 1.5rem;
    text-align: center;
-   color: black;
+   color: white;
    /* border: 1px solid red; */
 
  
@@ -86,7 +86,6 @@
   align-items: center;
   justify-content: center;
   border-radius: .7em;
-  border: .2em solid #300885;
   background-color: white;
   color: #300885;
   font-weight: bold;
@@ -101,7 +100,7 @@
 .button:hover {
   transition: 600ms;
   transform: scale(1.03);
-  background-color: #300885;
+  background-color: var(--fire);
   color: white;
   border: none;
   cursor: pointer;
@@ -120,7 +119,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-         background-color: darkblue;
+         background-color: var(--black);
    
   }
 
@@ -132,7 +131,7 @@
           align-items: center;
           justify-content: center;
           flex-direction: column;
-          color: white;
+          color: var(--white);
           font-size: 1.3em;
           text-align: center;
           /* border: 1px solid red; */
@@ -144,14 +143,14 @@
 @media (max-width: 992px) {
 
 .fristDiv {
-    padding: 0.5em;
+    padding-top:2em;
     width: 100%;
     align-self: flex-start;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.85rem;
-    color: darkblue;
+
     /* border: 1px solid red; */
 
 
@@ -168,7 +167,6 @@
     padding: 1em;
     font-size: 1.3rem;
     text-align: center;
-    color: black;
     /* border: 1px solid red; */
 
 
@@ -216,9 +214,6 @@
     align-items: center;
     justify-content: center;
     border-radius: .7em;
-    border: .2em solid #300885;
-    background-color: white;
-    color: #300885;
     font-weight: bold;
     font-size: 1rem;
 
@@ -228,14 +223,7 @@
 
   }
 
-  .button:hover {
-    transition: 600ms;
-    transform: scale(1.03);
-    background-color: #300885;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+  
 
 
 
@@ -250,7 +238,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: darkblue;
+
 
   }
 
@@ -262,7 +250,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+
     font-size: 1.3rem;
     /* border: 1px solid red; */
 
@@ -291,14 +279,14 @@
              @media (max-width: 768px) {
       
                .fristDiv {
-                 padding: 1em;
+                 padding-top: 1em;
                  width: 100%;
                  align-self: flex-start;
                  display: flex;
                  align-items: center;
                  justify-content: center;
                  font-size: 1.65rem;
-                 color: darkblue;
+            
                  /* border: 1px solid red; */
       
       
@@ -316,7 +304,7 @@
                  text-align: center;
                  font-size: 1.2rem;
                  text-align: center;
-                 color: black;
+               
                  /* border: 1px solid red; */
       
       
@@ -360,9 +348,6 @@
               align-items: center;
               justify-content: center;
               border-radius: .7em;
-              border: .2em solid #300885;
-              background-color: white;
-              color: #300885;
               font-weight: bold;
               font-size: 1rem;
               margin-bottom: 1em;
@@ -385,7 +370,7 @@
                 flex-direction: column;
                  align-items: center;
                  justify-content: space-around;
-                 background-color: darkblue;
+                
       
                }
       
@@ -397,7 +382,6 @@
                  align-items: center;
                  justify-content: center;
                  flex-direction: column;
-                 color: white;
                  font-size: 1.1rem;
                  /* border: 1px solid red; */
       
@@ -420,14 +404,14 @@
 @media (max-width: 600px) {
 
               .fristDiv {
-                  padding: 1em;
+                  padding-top: 1em;
                   width: 100%;
                   align-self: flex-start;
                   display: flex;
                   align-items: center;
                   justify-content: center;
                   font-size: 1.65rem;
-                  color: darkblue;
+              
                   /* border: 1px solid red; */
               
               
@@ -445,7 +429,7 @@
                   padding: 1em;
                   font-size: 1.1rem;
                   text-align: center;
-                  color: black;
+           
                   /* border: 1px solid red; */
               
               
@@ -490,9 +474,6 @@
                   align-items: center;
                   justify-content: center;
                   border-radius: .7em;
-                  border: .2em solid #300885;
-                  background-color: white;
-                  color: #300885;
                   font-weight: bold;
                   font-size: .8rem;
                   margin-bottom: 1em;
@@ -515,7 +496,7 @@
                   flex-direction: column;
                   align-items: center;
                   justify-content: space-around;
-                  background-color: darkblue;
+                 
               
                 }
               
@@ -527,7 +508,6 @@
                   align-items: center;
                   justify-content: center;
                   flex-direction: column;
-                  color: #ffffff;
                   font-size: 1.1rem;
                   /* border: 1px solid red; */
               
@@ -541,14 +521,14 @@
 
 @media (max-width: 450px) {
             .fristDiv {
-                padding: 1em;
+              padding-top: 1em;
                 width: 100%;
                 align-self: flex-start;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 font-size: 1.45rem;
-                color: darkblue;
+             
                 /* border: 1px solid red; */
             
             
@@ -566,7 +546,7 @@
                 padding: 1em;
                 font-size: 1rem;
                 text-align: center;
-                color: black;
+              
                 /* border: 1px solid red; */
             
             
@@ -610,9 +590,6 @@
               align-items: center;
               justify-content: center;
               border-radius: .7em;
-              border: .2em solid #300885;
-              background-color: white;
-              color: #300885;
               font-weight: bold;
               font-size: .8rem;
               margin-bottom: .8em;
@@ -635,8 +612,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-around;
-                background-color: darkblue;
-            
+
               }
             
             
@@ -647,7 +623,6 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                color: white;
                 font-size: 1rem;
                 /* border: 1px solid red; */
             

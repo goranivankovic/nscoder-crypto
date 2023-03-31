@@ -2,12 +2,16 @@
 
 
 .main{
- 
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+     
     display: flex;
     align-items: center;
     justify-content: center;
    z-index: 5;
-   background-color: rgb(3, 3, 187);
+   
   
   
 
@@ -17,8 +21,6 @@
 
 .firstDiv{
 min-width: 60%;
-color: white;
-background-color: rgb(3, 3, 187);
 display: flex;
 align-items: center;
 justify-content: space-around;
@@ -31,7 +33,7 @@ padding: .8em;
 
 
 .firstDiv a{
-    color: white;
+    color: rgb(194, 194, 194);
     text-decoration: none;
     font-size: 1.2rem;
   
@@ -40,8 +42,10 @@ padding: .8em;
 
 .firstDiv a:hover{
     transition: 600ms;
-    color: orange;
+    color: var(--white);
     transform: scale(.98);
+    border-bottom: .2em solid var(--blue);
+    padding-bottom: .1em;
 
  
     
@@ -74,12 +78,13 @@ padding: .8em;
 
   
     .barsDiv{
-    
-        display: flex;
-        background-color: rgb(3, 3, 187);
-        width: 100%;
-        padding: 1em;
-        color: white;
+      display: block;
+       position: fixed;
+       top: 3%;
+       right: 5%;
+       z-index: 10;
+      
+        color: var(--fire);
         align-items: center;
         justify-content: center;
 
@@ -88,21 +93,27 @@ padding: .8em;
     }
 
     .firstDiv768{
-         margin-top: -.1em;
+        position: fixed;
+        z-index: 8;
+        top: 0%;
+        left: 0%;
         width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
+       align-items: center;
+       justify-content: center;
         background-color: rgb(3, 3, 187);
-        border-bottom-right-radius: 8em;
+
      
     }
 
     .firstDiv768 a{
         color: white;
-        padding: 3.2em;
+        padding: 1.5em;
         font-size: 1rem;
         text-decoration: none;
+      
     }
 
 
@@ -116,7 +127,7 @@ padding: .8em;
 
 .firstDiv768 a:hover {
     transition: 600ms;
-    color: orange;
+    color: var(--fire);
     transform: scale(.98);
 
 
@@ -135,35 +146,40 @@ padding: .8em;
 
     .barsDiv {
     
-            display: flex;
-            background-color: rgb(3, 3, 187);
-            width: 100%;
-            padding: .8em;
-            color: white;
-            align-items: center;
-            justify-content: center;
+    display: block;
+        position: fixed;
+        top: 3%;
+        right: 5%;
+        z-index: 10;
     
-            font-size: 1.05rem;
-           
+        color: var(--fire);
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 1.15rem;
     
         }
  
     .firstDiv768 {
-        
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: rgb(3, 3, 187);
-            border-bottom-right-radius: 8em;
+              position: fixed;
+                z-index: 8;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(3, 3, 187);
     
         }
     
         .firstDiv768 a {
             color: white;
-            padding: 3em;
-            font-size: .9rem;
-            text-decoration: none;
+                padding: 1.7em;
+                font-size: .9rem;
+                text-decoration: none;
         }
     
     

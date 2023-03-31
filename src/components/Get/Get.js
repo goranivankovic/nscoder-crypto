@@ -6,7 +6,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 
 import getStyles from '../../styles/Get/Get.module.css'
 
-import slika from '../../images/2.png'
+import slika from '../../images/3.png'
 
 
 

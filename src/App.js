@@ -13,6 +13,7 @@ function App() {
     <div>
      
       <Nav />
+      {/* <Home /> */}
       <More />
       <Buy />
       <Get />

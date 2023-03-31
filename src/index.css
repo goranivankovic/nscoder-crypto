@@ -9,5 +9,15 @@
     font-family: 'Tilt Neon', cursive;
     scroll-behavior: smooth;
  
+ 
   
+}
+
+
+
+:root {
+  --black: black;
+  --white: #ffffff;
+  --blue:rgb(116, 116, 253);
+  --fire:firebrick;
 }

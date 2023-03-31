@@ -10,20 +10,23 @@
     align-items: center;
     justify-content: space-around;
     font-family: 'Kanit', sans-serif;
+background-color: var(--black);
+
+color: var(--white);
 
   }
 
 
   .firstDiv{
-    padding: 0.5em;
+    padding-top: 3em;
     width: 100%;
    align-self: flex-start;
    display: flex;
    align-items: center;
   justify-content: center;
   font-size: 2.1rem;
-  color: darkblue;
-
+  color: var(--blue);
+background-color: var(--black);
     /* border: 1px solid red; */
 
   }
@@ -32,6 +35,7 @@
     width: 100%;
     padding: 5em;
     display: flex;
+    background-color: var(--black);
    
 
   }
@@ -91,7 +95,7 @@
     text-align: left;
     font-size: 1.15rem;
      padding:1em;
-    border-bottom: .1em solid #300885;
+    border-bottom: .1em solid var(--blue);
 
 
   }
@@ -104,7 +108,7 @@
     align-items: center;
     justify-content: center;
 
-
+background-color: var(--black);
     /* border: 1px solid red; */
 
   }
@@ -121,7 +125,6 @@
     align-items: center;
     justify-content: center;
      border-radius: .7em;
-    border: .2em solid #300885;
     background-color:white ;
     color: #300885;
     font-weight: bold;
@@ -136,7 +139,7 @@
   .button:hover{
     transition: 600ms;
     transform: scale(1.03);
-    background-color: #300885;
+    background-color: var(--fire);
       color: white;
       border: none;
       cursor: pointer;
@@ -149,7 +152,7 @@
 
 
       .firstDiv {
-          padding: 0.5em;
+          padding-top: 3em;
           width: 100%;
           align-self: flex-start;
           display: flex;
@@ -157,7 +160,7 @@
           justify-content: center;
           font-size: 2rem;
           text-align: center;
-          color: darkblue;
+       
       
     
       
@@ -220,7 +223,7 @@
           text-align: left;
           font-size: 1.35rem;
           padding: 1.2em;
-          border-bottom: .1em solid #300885;
+        
       
       
         }
@@ -250,7 +253,7 @@
           justify-content: center;
           border-radius: .7em;
           border: .2em solid #300885;
-          background-color: white;
+      
           color: #300885;
           font-weight: bold;
           font-size: 1.1rem;
@@ -281,7 +284,7 @@
     
     
           .firstDiv {
-            padding: 1em;
+          padding-top: 3em;
             width: 100%;
             align-self: flex-start;
             display: flex;
@@ -289,7 +292,7 @@
             justify-content: center;
             font-size: 2rem;
             text-align: center;
-            color: darkblue;
+
     
     
     
@@ -352,7 +355,7 @@
             text-align: left;
             font-size: 1.45rem;
             padding: 1.3em;
-            border-bottom: .1em solid #300885;
+       
     
     
           }
@@ -391,7 +394,7 @@
         
         
                   .firstDiv {
-                    padding: 1em;
+                  padding-top: 2em;
                     width: 100%;
                     align-self: flex-start;
                     display: flex;
@@ -399,7 +402,7 @@
                     justify-content: center;
                     font-size: 1.85rem;
                     text-align: center;
-                    color: darkblue;
+          
         
         
         
@@ -472,7 +475,7 @@
                     text-align: left;
                     font-size: 1.45rem;
                     padding: 1.3em;
-                    border-bottom: .1em solid #300885;
+              
         
         
                   }
@@ -497,8 +500,6 @@
   align-items: center;
   justify-content: center;
   border-radius: .7em;
-  border: .2em solid #300885;
-  background-color: white;
   color: #300885;
   font-weight: bold;
   font-size:1rem;
@@ -535,7 +536,7 @@
 
 
   .firstDiv {
-    padding: 1em;
+  padding-top: 2em;
     width: 100%;
     align-self: flex-start;
     display: flex;
@@ -543,8 +544,7 @@
     justify-content: center;
     font-size: 1.65rem;
     text-align: center;
-    color: darkblue;
-
+ 
 
 
   }
@@ -618,7 +618,7 @@
     text-align: left;
     font-size: 1.2rem;
     padding: .9em;
-    border-bottom: .1em solid #300885;
+ 
 
 
   }
@@ -645,8 +645,7 @@
       justify-content: center;
       border-radius: .7em;
       border: .2em solid #300885;
-      background-color: white;
-      color: #300885;
+
       font-weight: bold;
       font-size: .8rem;
       margin-bottom: 1em;
@@ -685,7 +684,7 @@
     justify-content: center;
     font-size: 1.3rem;
     text-align: center;
-    color: darkblue;
+
 
 
 
@@ -757,7 +756,7 @@
     text-align: left;
     font-size: .9rem;
     padding: .8em;
-    border-bottom: .1em solid #300885;
+
 
 
   }
@@ -783,9 +782,6 @@
     align-items: center;
     justify-content: center;
     border-radius: .7em;
-    border: .2em solid #300885;
-    background-color: white;
-    color: #300885;
     font-weight: bold;
     font-size: .8rem;
     margin-bottom: .8em;
