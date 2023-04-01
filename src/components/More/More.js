@@ -1,12 +1,14 @@
 import React from 'react'
 import { AiOutlineArrowRight } from 'react-icons/ai'
-import { FaChartPie ,FaCalendarCheck ,FaMobile } from 'react-icons/fa'
+import { FaChartPie ,FaCalendarCheck ,FaMobile ,FaCheck } from 'react-icons/fa'
 
 
 
 import moreStyle from '../../styles/More/More.module.css'
 
 import slika from '../../images/home.png'
+import apple from '../../images/apple.png'
+import store from '../../images/store.png'
 
 
 
@@ -28,9 +30,18 @@ function More() {
 
 
 
-             <div className={moreStyle.emptyDiv}></div>
+             <div className={moreStyle.textAndImage}>
+                <div> <FaCheck  style={{marginRight:".5em",color:"#7474fd"}}/> Trusted by more than <span style={{color:"#7474fd"}}> 40M users</span> world-wide</div>
 
+                <div> <FaCheck  style={{marginRight:".5em",color:"#7474fd"}} /> Leader in <span style={{color:"#7474fd"}}>security</span> certifications and Buying cripto</div>
 
+                <div> <FaCheck  style={{marginRight:".5em",color:"#7474fd"}}/> The industry’s most comprehensive <span style={{color:"#7474fd"}}>insurance</span> coverage </div>
+
+                <div className={moreStyle.textAndImage2Imge}><img src={apple} alt="app store" /> <img src={store} alt="google store" /> </div>
+
+                
+
+            </div>
 
 
 
