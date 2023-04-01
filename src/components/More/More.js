@@ -9,6 +9,7 @@ import moreStyle from '../../styles/More/More.module.css'
 import slika from '../../images/home.png'
 import apple from '../../images/apple.png'
 import store from '../../images/store.png'
+import Phone from '../Phone/Phone'
 
 
 
