@@ -50,11 +50,11 @@ function More() {
           <div className={moreStyle.secondDiv}>
          
      
-      <div className={moreStyle.imageDiv}>
+     <div className={moreStyle.imageDiv}>
           <img src={slika} alt="slika"  />
 
      </div>
-         
+          
        
           
             <div  className={moreStyle.secondDivText}>
