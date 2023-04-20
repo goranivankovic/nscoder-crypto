@@ -63,7 +63,7 @@ function More() {
              
           <div className={moreStyle.secondDivTextIcons}>
             
-                  <FaChartPie  /> 
+                  <FaChartPie className={moreStyle.icons} /> 
                     <div>
                    Buy and sell popular digital currencies,
                    keep track of them in the one place
@@ -72,7 +72,7 @@ function More() {
               </div>
 
               <div className={moreStyle.secondDivTextIcons}>
-                  <FaCalendarCheck  />   
+                  <FaCalendarCheck  className={moreStyle.icons}/>   
 
                    Invest in cryptocurrency slowly over time by          
                    scheduling buys daily, weekly, or monthly
@@ -81,7 +81,7 @@ function More() {
 
               <div className={moreStyle.secondDivTextIcons}>
 
-                   <FaMobile /> 
+                   <FaMobile className={moreStyle.icons}/> 
                   Stay on top of the markets with your apps for 
                   Android or iOS.
               </div>
